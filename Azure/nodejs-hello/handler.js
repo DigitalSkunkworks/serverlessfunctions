@@ -7,7 +7,7 @@ module.exports.hello = function (context) {
 
   context.res = {
     // status: 200, /* Defaults to 200 */
-    body: 'Go Serverless v1.x! Your function executed successfully1!',
+    body: 'Go Serverless v1.x! Your function executed successfully!',
     headers: {'Content-Type': 'application/json' }
   };
 
